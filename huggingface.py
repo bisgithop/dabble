@@ -1,6 +1,6 @@
 import json
 import requests
-API_TOKEN = "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"
+API_TOKEN = "Get it from HuggingFace"
 
 API_URL = "https://api-inference.huggingface.co/models/openai/gpt-3.5-turbo"
 #API_URL = "https://api-inference.huggingface.co/models/gpt2-xl"
