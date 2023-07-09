@@ -1,9 +1,10 @@
+# Found below code in documentation of Hugging Face. 
+# IT works for many models but some models didn't work
+
 import json
 import requests
 API_TOKEN = "Get it from HuggingFace"
-
-API_URL = "https://api-inference.huggingface.co/models/openai/gpt-3.5-turbo"
-#API_URL = "https://api-inference.huggingface.co/models/gpt2-xl"
+API_URL = "https://api-inference.huggingface.co/models/gpt2-xl"
 headers = {"Authorization": f"Bearer {API_TOKEN}"}
 def query(payload):
     data = json.dumps(payload)
