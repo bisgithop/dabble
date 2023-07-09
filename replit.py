@@ -1,3 +1,8 @@
+# Got below code from Hugging Face. 
+# Tested it with few functions like quicksort, factorial - work well.
+# Sample client for code generator. Worked well so far. 
+#  But it downloads 10 GB on your local machine. and there are some errors. 
+
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 tokenizer = AutoTokenizer.from_pretrained('replit/replit-code-v1-3b', trust_remote_code=True)
