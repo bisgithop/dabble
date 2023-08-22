@@ -1,7 +1,7 @@
 # Got below code from Hugging Face. 
-# Tested it with few functions like quicksort, factorial - work well.
+# Tested it with few functions like quicksort, factorial - worked well.
 # Sample client for code generator. Worked well so far. 
-#  But it downloads 10 GB on your local machine. and there are some errors. 
+# But it downloads 10 GB on your local machine. and there are some errors. 
 
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
